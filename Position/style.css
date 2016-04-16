@@ -1,0 +1,145 @@
+.triangle {
+    border: 2px solid #fff100;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 18px 15px 30px 25px;
+    position: relative;
+    width: 280px;
+    height: 80px;
+    font-size: 20px;
+    color: #a0b0bb;
+    margin: 5px 50px 20px -120px;
+    border-right: transparent;
+    float: left;
+}
+
+.triangle::before, .triangle::after {
+    content: '';
+    position: absolute;
+    left: 20px; bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #fff100;
+}
+
+.triangle::after {
+    border-top: 10px solid white;
+    bottom: -19px;
+}
+
+.main {
+    margin-left: 150px;
+    position: fixed;
+    float: right;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.winning {
+  	border: 1px solid #d9d9d9;
+    position: relative;
+    width: 990px;
+    height: 360px;
+    border-radius: 5px;
+    background: linear-gradient(-180deg, #ffffff, #f3eeee);
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.someText {
+    margin: 5px 0 0 30px;
+    position: absolute;
+    float: left;
+}
+
+#places {
+    color: #adadad;
+    font-size: smaller;
+    padding: 10px 0 30px 0;
+}
+
+.info {
+    width: 400px;
+    height: 60px;
+    background-color: #aeabab;
+    padding: 1px 0 4px 20px;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.info::after {
+	content: ''; 
+    position: absolute;
+    right: -76px; top: -1px;
+    border: 33px solid transparent;
+    border-left: 44px solid #aeabab;
+}
+
+span {
+    font-weight: bolder;
+}
+
+#address {
+    margin-top: -15px;
+
+}
+
+.logos {
+    width: 430px;
+    height: 240px;
+    float: right;
+    padding: 20px 20px 0 0; 
+    background-image: url('../Images/foto.png');
+}
+
+.bmibaby {
+    position: relative;
+    margin-top: 10px;
+    width: 150px;
+    height: 80px;
+    margin-left: 20px;
+    border-bottom-style: 2px dashed gray;
+}
+
+#radius {
+	text-align: center;
+	border-radius: 20px;
+	display: inline-block;
+	border: 1px solid #5877d2;
+	height: 15px;
+	width: 15px;
+	color: #5877d2;
+}
+
+#register {
+	width: 420px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom, #6af142, #3aa21a); 
+    border: 1px solid #d9d9d9;
+    border-radius: 5px; 
+    margin-top: 15px;
+}
+
+#raquo {
+	font-size: 1.5em;
+	text-align: right;
+	display: block;
+	margin-right: 15px;
+	margin-top: -35px;
+}
+
+img {
+	width: 420px;
+	height: 220px;
+	padding-top: -20px;
+}
+
+#reg {
+	text-align: center;
+	padding-top: 5px;
+}
